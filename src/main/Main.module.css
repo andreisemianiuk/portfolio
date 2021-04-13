@@ -1,0 +1,30 @@
+.home {
+	background-color: burlywood;
+	height: 100vh;
+	border: 1px solid;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #61dafb;
+}
+
+.text {
+	font-size: 1.5em;
+	color: firebrick;
+	border: 1px solid;
+}
+
+.photo {
+	width: 250px;
+	height: 350px;
+	border: 1px solid;
+}
+
+.avatar {
+	width: 248px;
+	height: 348px;
+}
