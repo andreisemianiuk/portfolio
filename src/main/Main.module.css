@@ -1,26 +1,43 @@
 .home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: burlywood;
-	height: 100vh;
+	min-height: 100vh;
 	border: 1px solid;
 }
 
 .container {
+	width: 80%;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	background-color: #61dafb;
+	border: 1px solid;
 }
 
 .text {
 	font-size: 1.5em;
-	color: firebrick;
+	border: 1px solid;
+}
+
+.greeting {
+	border: 1px solid;
+}
+
+.name {
+	border: 1px solid;
+}
+
+.prof {
 	border: 1px solid;
 }
 
 .photo {
-	width: 250px;
+	width: 252px;
 	height: 350px;
+	background-color: lightslategrey;
 	border: 1px solid;
 }
 

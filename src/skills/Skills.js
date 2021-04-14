@@ -1,13 +1,14 @@
 import React from 'react'
 import styles from './Skills.module.css'
-import s from '../common/container/styles/Container.module.css'
 import Skill from './Skill'
 
 function Skills() {
   return (
     <section className={styles.skills}>
-      <div className={`${s.container} ${styles.wrapper}`}>
-        <h2 className={styles.title}>My Skills</h2>
+      <div className={styles.container}>
+        <div className={styles.title}>
+          <h2>My Skills</h2>
+        </div>
         <div className={styles.skillsWrapper}>
           <Skill title={'HTML'}/>
           <Skill title={'CSS'}/>
