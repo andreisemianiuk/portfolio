@@ -1,57 +1,60 @@
 .services {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	padding: 100px 0;
-	background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 100px 0;
+  background-color: gainsboro;
 }
 
 .container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 80%;
-	margin: 0 auto;
-	border: 1px solid;
-	background-color: #61dafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: gainsboro; */
 }
 
 .title {
-	margin-bottom: 50px;
-	text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.title h2 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 29px;
+  color: #222222;
 }
 
 .servicesWrapper {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .service {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	width: 300px;
-	border: 1px solid;
-	background-color: springgreen;
-	margin: 0 auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  /* background-color: azure; */
+  margin: 0 auto 50px;
 }
 
 .image {
-	width: 200px;
-	height: 200px;
-	background-color: darkcyan;
-	border: 1px solid;
+  width: 200px;
+  height: 200px;
+  /* background-color: azure; */
+  border: 1px solid;
 }
 
 .name {
-	margin: 20px;
-	border: 1px solid;
+  font-family: 'Russo One', sans-serif;
+  margin: 20px;
 }
 
 .description {
-	text-align: center;
-	border: 1px solid;
+  text-align: center;
 }

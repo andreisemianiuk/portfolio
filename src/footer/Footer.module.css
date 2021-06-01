@@ -1,61 +1,41 @@
 .footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 70vh;
-	padding: 100px 0;
-	border: 1px solid;
-	background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 70vh; */
+  padding: 50px 0;
+  background-color: #222222;
 }
 
 .container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	width: 80%;
-	margin: 0 auto;
-	border: 1px solid;
-	background-color: coral;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  color: azure;
 }
 
 .name {
-	font-size: 1.5em;
-	border: 1px solid;
-	background-color: springgreen;
-	margin-bottom: 50px;
+  font-size: 29px;
+
+  margin-bottom: 20px;
 }
 
 .socials {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-bottom: 50px;
-	border: 1px solid;
-	background-color: indianred;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .icon {
-	width: 80px;
-	height: 50px;
-	margin: 10px;
-	text-align: center;
-	border: 1px solid;
-	background-color: #61dafb;
+  width: 80px;
+  height: 50px;
 }
 
 .copyright {
-	text-align: center;
-	border: 1px solid;
-	background-color: orange;
-}
-
-.btnWrapper {
-	padding-top: 50px;
-}
-
-.btn {
-	width: 120px;
-	height: 40px;
-
 }

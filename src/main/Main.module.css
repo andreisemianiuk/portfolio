@@ -1,47 +1,49 @@
 .home {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: burlywood;
-	min-height: 100vh;
-	border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  min-height: 100vh;
+  /* border: 1px solid; */
 }
 
 .container {
-	width: 80%;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	background-color: #61dafb;
-	border: 1px solid;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: #61dafb; */
+  /* border: 1px solid; */
 }
 
 .text {
-	font-size: 1.5em;
-	border: 1px solid;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: azure;
+  /* border: 1px solid; */
 }
 
 .greeting {
-	border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .name {
-	border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .prof {
-	border: 1px solid;
+  /* border: 1px solid; */
 }
 
 .photo {
-	width: 252px;
-	height: 350px;
-	background-color: lightslategrey;
-	border: 1px solid;
+  width: 252px;
+  height: 350px;
+  background-color: lightslategrey;
+  border: 1px solid;
 }
 
 .avatar {
-	width: 248px;
-	height: 348px;
+  width: 248px;
+  height: 348px;
 }

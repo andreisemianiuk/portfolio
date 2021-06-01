@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Main.module.css'
-
+import ava from '../images/surf_photo.jpg'
 function Main() {
   return (
     <section className={styles.home}>
@@ -11,7 +11,7 @@ function Main() {
           <p className={styles.prof}>A Front-end Developer</p>
         </div>
         <div className={styles.photo}>
-          <img className={styles.avatar} alt={'avatar'}/>
+          <img className={styles.avatar} src={ava} alt='avatar' />
         </div>
       </div>
     </section>

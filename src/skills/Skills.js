@@ -6,15 +6,15 @@ function Skills() {
   return (
     <section className={styles.skills}>
       <div className={styles.container}>
-        <div className={styles.title}>
+        <div className={styles.skillsTitle}>
           <h2>My Skills</h2>
         </div>
         <div className={styles.skillsWrapper}>
-          <Skill title={'HTML'}/>
-          <Skill title={'CSS'}/>
-          <Skill title={'JS'}/>
-          <Skill title={'React'}/>
-          <Skill title={'TypeScript'}/>
+          <Skill title={'HTML'} />
+          <Skill title={'CSS'} />
+          <Skill title={'JS'} />
+          <Skill title={'React'} />
+          <Skill title={'TypeScript'} />
         </div>
       </div>
     </section>

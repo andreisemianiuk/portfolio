@@ -10,11 +10,11 @@ function Services() {
           <h2>My Services</h2>
         </div>
         <div className={styles.servicesWrapper}>
-          <Service title={'Social Network'}/>
-          <Service title={'TodoList'}/>
-          <Service title={'FFL'}/>
-          <Service title={'FFL'}/>
-          <Service title={'FFL'}/>
+          <Service title={'Social Network'} />
+          <Service title={'TodoList'} />
+          <Service title={'FFL'} />
+          <Service title={'FFL'} />
+          <Service title={'FFL'} />
         </div>
       </div>
     </section>
