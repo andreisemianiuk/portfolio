@@ -1,0 +1,63 @@
+.skills {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	padding: 100px 0;
+	background-color: azure;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.skillsTitle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+.skillsTitle h2 {
+	font-family: 'Russo One', sans-serif;
+	font-size: 29px;
+	color: #222222;
+}
+
+.skillsWrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: azure;
+	flex-wrap: wrap;
+}
+
+.skill {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 200px;
+	background-color: azure;
+	margin: 20px;
+}
+
+.skillIcon {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.skillTitle {
+	font-family: 'Russo One', sans-serif;
+	margin: 10px;
+}
+
+.skillDescription {
+	margin: 10px;
+	text-align: center;
+}

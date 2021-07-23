@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Skills.module.css'
+import styles from './Skills.module.scss'
 import Skill from './Skill'
 import TypeScriptIcon from '../icons/typescript.png'
 import ReactIcon from '../icons/react.png'
